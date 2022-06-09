@@ -3,19 +3,19 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 const fadeImages  = [
     {
-        url: "/images/1.jpg",
+        url: "/images/home/1.jpg",
         caption: "City Hall of Santa Rosa"
     },
     {
-        url: "/images/2.jpg",
+        url: "/images/home/2.jpg",
         caption: "TOYOTA MOTORS"
     },
     {
-        url: "/images/3.jpg",
+        url: "/images/home/3.jpg",
         caption: "COCA-COLA COMPANY"
     },
     {
-        url: "/images/4.jpg",
+        url: "/images/home/4.jpg",
         caption: "ENCHANTED KINGDOM"
     }
 ]
@@ -29,7 +29,7 @@ const ImageSlider = () => {
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container flex justify-center">
-              <img src={fadeImage.url} alt={fadeImage.caption}/>
+              <img src={fadeImage.url} alt={fadeImage.caption} className='rounded shadow-md'/>
             </div>
             <h1>{fadeImage.caption}</h1>
           </div>

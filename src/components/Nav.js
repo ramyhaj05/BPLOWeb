@@ -26,10 +26,11 @@ const Nav = () => {
     }
   }
   return (
-    <div className='w-100 '>
-        {/* <div className="flex flex-col justify-end align-center text-4xl font-black tracking-wider h-2/3">
-        </div> */}
-        <div className="flex flex-row justify-center items-center py-3 bg-gradient-to-t from-gray-50 to-gray-200">
+    <div className='w-100 bg-gradient-to-b from-gray-50 to-gray-300'>
+        <div className="flex flex-col items-center pt-2">
+          <img src="./images/logo/1.png" alt="" className='w-16'/>
+        </div>
+        <div className="flex flex-row justify-center items-center py-2 ">
             <Link to='/' className={navButton + home} onClick={()=>{handleActive("home")}}>Home</Link>
             <Link to='/About' className={navButton + about} onClick={()=>{handleActive("about")}}>About</Link>
             <Link to='/Services' className={navButton + services} onClick={()=>{handleActive("services")}}>Services</Link>
