@@ -29,7 +29,7 @@ const ImageSlider = () => {
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container flex justify-center">
-              <img src={fadeImage.url} />
+              <img src={fadeImage.url} alt={fadeImage.caption}/>
             </div>
             <h1>{fadeImage.caption}</h1>
           </div>
