@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-slideshow-image/dist/styles.css";
+
+.text-pink-100{ 
+    color: rgb(255 228 230);
+  }
+  .text-pink-200{ 
+    color: rgb(254 205 211);
+  }
+  .text-pink-300{ 
+    color: rgb(253 164 175);
+  }
+  .text-pink-400{ 
+    color: rgb(251 113 133);
+  }
+  .text-pink-500{ 
+    color: rgb(244 63 94);
+  }
+
+  .bg-pink-100{ 
+    background-color: rgb(255 228 230);
+  }
+  .bg-pink-200{ 
+    background-color: rgb(254 205 211);   
+  }
+  .bg-pink-300{ 
+    background-color: rgb(253 164 175);
+  }
+  .bg-pink-400{ 
+    background-color: rgb(251 113 133);
+  }
+  .bg-pink-500{ 
+    background-color: rgb(244 63 94);
+  }
+  .text-shadow-sm{
+    text-shadow: 2px 2px 1px black;
+  }
+  .text-shadow-md{
+    text-shadow: 4px 4px 1px black;
+  }
+  .text-shadow-white-sm{
+    text-shadow: 1px 1px 1px white;
+  }
+  .text-shadow-white-md{
+    text-shadow: 2px 2px 1px white;
+  }
