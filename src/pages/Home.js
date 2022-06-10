@@ -36,7 +36,7 @@ const Home = () => {
                 <h1 className='text-3xl text-gray-50 font-sans md:text-5xl md:tracking-widest text-shadow-sm'>GET VACCINATED!</h1>
                 <h1 className='text-xl md:text-2xl text-pink-500 font-sans tracking-widest pt-2'></h1>
                 <div className='pt-5 text-white'>
-                    <Link to={"./about"}><button className='p-2 rounded-xl text-white bg-pink-500 text-xs font-bold px-3'>CLICK HERE!</button></Link>
+                    <a href={"https://www.santarosacity.ph/SCVT/"} target="_blank"><button className='p-2 rounded-xl text-white bg-pink-500 text-xs font-bold px-3'>CLICK HERE!</button></a>
                 </div>
             </div>
         </div>
